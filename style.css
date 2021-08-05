@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    background-color: #474646;
+    color: rgb(190, 226, 156);
+    min-height: 110px;
+    align-items: center;
+}
+
+.headerText {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menuButtons a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.mainPhoto {
+    text-align: center;
+    background-image: url(img/vesi.jpg);
+    color: white;
+    min-height: 695px;
+    opacity: 0.8;
+}
+
+.mainPhotoMobile {
+    text-align: center;
+    background-image: url(img/vesiMobile.jpg);
+    color: white;
+    min-height: 695px;
+    opacity: 0.8;
+}
+
+.textMainPhoto {
+    margin-top: 15%;
+}
+
+.textMainPhotoMobile {
+    margin-top: 50%;
+}
+
+.btnMainPhoto {
+    text-align: center;
+    margin-top: 3%;
+
+}
+
+#btnPhoto {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    border: 2px solid rgb(190, 226, 156);
+    transition: 0.3s;
+}
+
+#btnPhoto:hover {
+    color: black;
+    background-color: rgb(190, 226, 156);
+    border: 2px solid black;
+    transition: 0.3s;
+}
+
+#btnPhotoMobile {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    border: 2px solid rgb(190, 226, 156);
+    transition: 0.3s;
+}
+
+#btnPhotoMobile:hover {
+    color: black;
+    background-color: rgb(190, 226, 156);
+    border: 2px solid black;
+    transition: 0.3s;
+}
+
+.spansMobile, input[type="checkbox"] {
+    display: none;
+    font-size: 35px;
+}
+
+input[type="checkbox"]:checked ~ .spansMobile {
+    display: block;
+}
+
+.consultation {
+    display: none;
+}
+
+.consultationMobile {
+    display: none;
+}
+
+.icon {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.servicesWrapper {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.servicesWrapper p {
+    font-size: 20px;
+}
+
+.line {
+    border: 2px solid rgb(190, 226, 156);
+    margin-left: 25.1%;
+}
+
+.lineMobile {
+    border: 2px solid rgb(190, 226, 156);
+}
+
+.servicesBlocks {
+    text-align: center;
+}
+
+.servicesBlocksMobile h4 {
+    font-size: 18px;
+}
+
+
+.Blocks {
+    display: flex;
+    justify-content: center;
+}
+
+.Blocks h1 {
+    font-size: 30px;
+}
+
+.Blocks span {
+    font-size: 20px;
+}
+
+.Blank {
+    opacity: 0.8;
+    background-image: url(img/blank.jpg);
+    color: white;
+    min-height: 470px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.BlankMobile {
+    opacity: 0.8;
+    background-image: url(img/blankMobile.jpg);
+    color: white;
+    min-height: 470px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.Blank span, .BlankMobile span {
+    color: rgb(190, 226, 156);
+    font-size: 70px;
+}
+
+.blankText {
+    margin-top: 6%;
+    display: inline-block;
+}
+
+.advantages {
+    margin-top: 1%;
+    text-align: center;
+}
+
+.advantages p {
+    font-size: 20px;
+}
+
+.advantagesBlocksMobile {
+    margin-top: 2%;
+}
+
+.advantagesBlocksMobile h4 {
+    font-size: 18px;
+}
+
+.advantagesBlocks {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.advantagesBlocks  h4{
+font-size: 23px;
+}
+
+.advantagesBlocks p {
+    font-size: 17px;
+}
+
+.advantagesBlocksMobile p {
+    font-size: 15px;
+}
+
+.lawyerFace {
+    background-image: url(img/urist.jpg);
+    min-height: 800px;
+    margin-top: 1%;
+}
+
+.lawyerFace span {
+    font-size: 70px;
+}
+
+.lawyerFace p {
+    font-size: 35px;
+}
+
+.lawyerText {
+    text-align: center;
+    margin: 10% 0 0 10%;
+}
+
+footer {
+    background-color: #474646;
+    color: white;
+    padding: 15px 0 15px 0;
+}
+
+.textFooter {
+    font-size: 35px;
+    /* float: right; */
+}
